@@ -14,11 +14,11 @@ For example, 'First name' title will be outputted as 'firstName', '1 order whate
 Columns with no titles in data range will be ignored. Empty rows will be ignored as well.
 
 ##Column types.
-*N - number,
-*S - string,
-*O - object,
-*A - array,
-*D - date.
+- N - number,
+- S - string,
+- O - object,
+- A - array,
+- D - date.
 
 Column data will be converted to a number or an object or other type, if type conversion is specified for the column.
 Default type is a string. 
@@ -54,7 +54,7 @@ Table.sheet() - returns connected sheet
 
 
 
-Use of the sheet IDs instead of the names to refer is recommended.
+Use of the sheet ID instead of the name to refer is recommended.
 
 ##Usage:
 ```
@@ -94,7 +94,7 @@ Use of the sheet IDs instead of the names to refer is recommended.
   Logger.log( data )
   
   
-  //Scenario with the sheet ids
+  //Scenario with the sheet ID
   
   var types = {
     '0': {
