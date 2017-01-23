@@ -34,13 +34,11 @@ SheetsDB.connect( url, types ) - creates Connection to the spreadsheet
 
 SheetsDB.getSheetIds( url ) - returns array of sheet names and sheets ids of specified spreadsheet
 
-
 Connection.spreadsheet() - returns connected spreadsheet
 
-Connection.table( ref, types ) - returns Table, 'ref' is the name or the id of the sheet, types are optional here
+Connection.table( ref, types ) - returns Table, __ref__ is the name or the ID of the sheet, types are optional here
 
 Connection.timeZone() - returns the time zone for the spreadsheet
-
 
 Table.get() - reads all data from the table
 
