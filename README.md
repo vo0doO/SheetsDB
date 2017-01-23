@@ -47,7 +47,7 @@ Table.sheet() - returns connected sheet
 Use of the sheet IDs instead of the names to refer is recommended.
 
 Usage:
-
+```
   //Scenario with the sheet names
 	
   var types = {
@@ -143,8 +143,7 @@ Usage:
   }
   ]
   */
- 
-
+```
 
 
 
