@@ -30,13 +30,13 @@ __write__ - defines if it's write(true) or read(false) operation.
 All cells should be formatted as plain text.
 
 ##API:
-SheetsDB.connect( url, types ) - creates Connection to the spreadsheet
+SheetsDB.connect( url, types ) - creates __Connection__ to the spreadsheet
 
 SheetsDB.getSheetIds( url ) - returns array of sheet names and sheets ids of specified spreadsheet
 
 Connection.spreadsheet() - returns connected spreadsheet
 
-Connection.table( ref, types ) - returns Table, __ref__ is the name or the ID of the sheet, types are optional here
+Connection.table( ref, types ) - returns __Table__, __ref__ is the name or the ID of the sheet, types are optional here
 
 Connection.timeZone() - returns the time zone for the spreadsheet
 
