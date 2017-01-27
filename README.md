@@ -33,29 +33,29 @@ Custom type converters are allowed as function with __value__ and __write__ argu
 All cells recommended to be formatted as plain text.
 
 ###API:
-SheetsDB.connect( url, types ) - creates __Connection__ to the spreadsheet, __url__ is required, __types__ is optional.
+_SheetsDB.connect( url, types )_ - creates __Connection__ to the spreadsheet, __url__ is required, __types__ is optional.
 
-Connection.spreadsheet() - returns connected spreadsheet.
+_Connection.spreadsheet()_ - returns connected spreadsheet.
 
-Connection.getSheetRefs() - returns an array of the sheet names and ids of the connected spreadsheet.
+_Connection.getSheetRefs()_ - returns an array of the sheet names and ids of the connected spreadsheet.
 
-Connection.timeZone() - returns the time zone for the spreadsheet.
+_Connection.timeZone()_ - returns the time zone for the spreadsheet.
 
-Connection.table( ref, types ) - returns __Table__, __ref__ is required and should be the name or the ID of a sheet, __types__ are optional, but if defined, table instance will use it to convert the data, __types__ defined in this method, do not overwrite global types definition and affects only created Table instance.
+_Connection.table( ref, types )_ - returns __Table__, __ref__ is required and should be the name or the ID of a sheet, __types__ are optional, but if defined, table instance will use it to convert the data, __types__ defined in this method, do not overwrite global types definition and affects only created Table instance.
 
-Table.get() - reads all data from the table and returns array of objects.
+_Table.get()_ - reads all data from the table and returns array of objects.
 
-Table.set( data ) - writes the data to the table.
+_Table.set( data )_ - writes the data to the table.
 
-Table.append( data ) - appends the data to the table.
+_Table.append( data )_ - appends the data to the table.
 
-Table.clear() - removes all the data from the table.
+_Table.clear()_ - removes all the data from the table.
 
-Table.sheet() - returns connected sheet.
+_Table.sheet()_ - returns connected sheet.
 
-Table.types() - returns types object defined for the current table instance.
+_Table.types()_ - returns types object defined for the current table instance.
 
-Table.keys() - return keys of the table.
+_Table.keys()_ - return keys of the table.
 
 
 
